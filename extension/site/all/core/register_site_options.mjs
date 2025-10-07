@@ -75,3 +75,4 @@ import "../../wiewaswie/core/wiewaswie_options.mjs";
 import "../../wikitree/core/wikitree_options.mjs";
 import "../../wikipedia/core/wikipedia_options.mjs";
 import "../../dfgviewer/core/dfgviewer_options.mjs";
+import "../../vetslm/core/vetslm_options.mjs";

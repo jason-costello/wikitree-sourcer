@@ -515,6 +515,16 @@
         "base/browser/content/content_common.js",
         "site/wikipedia/browser/wikipedia_content.js"
       ]
+    },
+    {
+      "matches": [
+        "*://www.vlm.cem.va.gov/*"
+      ],
+      "run_at": "document_idle",
+      "js": [
+        "base/browser/content/content_common.js",
+        "site/vetslm/browser/vetslm_content.js"
+      ]
     }
   ],
   "options_ui": {
@@ -929,6 +939,14 @@
       ],
       "matches": [
         "*://*.wikipedia.org/*"
+      ]
+    },
+    {
+      "resources": [
+        "site/vetslm/core/vetslm_extract_data.mjs"
+      ],
+      "matches": [
+        "*://www.vlm.cem.va.gov/*"
       ]
     }
   ],

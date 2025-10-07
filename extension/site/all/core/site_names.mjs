@@ -73,6 +73,7 @@ const siteNames = [
   "wikitree",
   "wikipedia",
   "dfgviewer",
+  "vetslm",
 ];
 
 export { siteNames };
